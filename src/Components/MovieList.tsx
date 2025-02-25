@@ -105,39 +105,6 @@ const MovieList: React.FC = () => {
 
     </Container>
 
-/*
-    <div>
-      
-          <Table className="table table-striped table-bordered">
-            <thead className="thead-dark">
-              <tr>
-                <th></th>
-                <th>Title</th>
-                <th>Year</th>
-                <th>Type</th>
-              </tr>
-            </thead>
-            <tbody>
-            {movies.map((movie) => (
-                <tr key={movie.imdbID}>
-              
-                <td>
-                  <img src={movie.Poster} alt={movie.Title} width="100" />
-                </td>
-                <td>{movie.Title}</td>
-                <td>{movie.Year}</td>
-                <td className="text-center">
-                    <span className="bg-primary text-white px-3 py-2 rounded d-inline-block">
-                        {movie.Type}
-                    </span>
-                </td>
-              </tr>
-            ))}
-            </tbody>
-          </Table>
-        </div>
-      
-    */
   );
 };
 
